@@ -65,7 +65,7 @@ describe('ES6Class', function() {
       '',
       'var HelloWorldEcho = function() {',
       '  var HelloWorldEcho = function HelloWorldEcho() {',
-      '    HelloWorld.call(this);',
+      '    HelloWorld.apply(this, arguments);',
       '  };',
       '',
       '  var HelloWorldEchoPrototype = function() {};',
