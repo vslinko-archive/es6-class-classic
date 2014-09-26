@@ -1,6 +1,6 @@
 # es6-class-classic
 
-Compiles JavaScript written using ES6 classes to ES4 syntax.
+Compiles JavaScript written using ES6 classes to ES3 syntax.
 For example, this:
 
 ```js
